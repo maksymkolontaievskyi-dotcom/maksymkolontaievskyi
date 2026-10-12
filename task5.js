@@ -15,10 +15,10 @@ let tv = {
 };
 
 tv.nextChannel();
-console.log(tv.currentChannel); // 2
+console.log(tv.currentChannel); 
 
 tv.previousChannel();
-console.log(tv.currentChannel); // 1
+console.log(tv.currentChannel);
 
 tv.setChannel(10);
-console.log(tv.currentChannel); // 10
+console.log(tv.currentChannel); 
